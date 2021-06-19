@@ -1,0 +1,23 @@
+{
+  "name": "epolsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style1": "sass --watch JS_Task1/sass/style.scss JS_Task1/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GentlemanGit/EpolSoft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GentlemanGit/EpolSoft/issues"
+  },
+  "homepage": "https://github.com/GentlemanGit/EpolSoft#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}
