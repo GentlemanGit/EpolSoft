@@ -1,0 +1,53 @@
+.main {
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+}
+.number,
+.converted {
+  width: 200px;
+  height: 20px;
+}
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nai,
+.screening,
+.presentation,
+.numbering-plan,
+.routing {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 180px;
+  height: 160px;
+  margin-top: 40px;
+  padding: 15px 0 0 20px;
+  li {
+    height: 20px;
+    margin-top: 5px;
+  }
+  .title {
+    display: initial;
+    position: relative;
+    bottom: 24px;
+    right: 10px;
+    background-color: white;
+    padding: 0 3px;
+  }
+}
+.routing {
+  padding: 0 0 0 60px;
+  margin: 30px auto;
+  width: 340px;
+  height: 80px;
+  .title {
+    bottom: 8px;
+    right: 50px;
+  }
+}

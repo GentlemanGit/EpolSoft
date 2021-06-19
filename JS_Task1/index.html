@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parsing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <input type="number" placeholder="Number" class="number" />
+      <input type="text" placeholder="Converted" class="converted" readonly />
+      <div class="radio-group">
+        <ul class="nai">
+          <li class="title">NAI</li>
+          <li>
+            <input
+              type="radio"
+              id="national"
+              name="nai"
+              value="national"
+              checked
+            />
+            <label for="national">National</label>
+          </li>
+          <li>
+            <input type="radio" id="unknown" name="nai" value="unknown" />
+            <label for="unknown">Unknown</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="national-significant"
+              name="nai"
+              value="national-significant"
+            />
+            <label for="national-significant">National Significant</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="international"
+              name="nai"
+              value="international"
+            />
+            <label for="international">International</label>
+          </li>
+        </ul>
+        <ul class="screening">
+          <li class="title">Screening</li>
+          <li>
+            <input
+              type="radio"
+              id="not-verified"
+              name="screening"
+              value="not-verified"
+              checked
+            />
+            <label for="not-verified">Not Verified</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="verified-and-passed"
+              name="screening"
+              value="verified-and-passed"
+            />
+            <label for="verified-and-passed">Verified and passed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="verified-and-failed"
+              name="screening"
+              value="verified-and-failed"
+            />
+            <label for="verified-and-failed">Verified and failed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="network provided"
+              name="screening"
+              value="network provided"
+            />
+            <label for="network provided">Network provided</label>
+          </li>
+        </ul>
+        <ul class="presentation">
+          <li class="title">Presentation</li>
+          <li>
+            <input
+              type="radio"
+              id="allowed"
+              name="presentation"
+              value="allowed"
+              checked
+            />
+            <label for="allowed">Allowed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="restricted"
+              name="presentation"
+              value="restricted"
+            />
+            <label for="restricted">Restricted</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="not-available"
+              name="presentation"
+              value="not-available"
+            />
+            <label for="not-available">Not available</label>
+          </li>
+        </ul>
+        <ul class="numbering-plan">
+          <li class="title">Numbering Plan</li>
+          <li>
+            <input
+              type="radio"
+              id="isdn"
+              name="numbering-plan"
+              value="isdn"
+              checked
+            />
+            <label for="isdn">ISDN</label>
+          </li>
+          <li>
+            <input type="radio" id="daya" name="numbering-plan" value="daya" />
+            <label for="daya">Daya</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="telex"
+              name="numbering-plan"
+              value="telex"
+            />
+            <label for="telex">Telex</label>
+          </li>
+        </ul>
+        <ul class="routing">
+          <li class="title">Routing</li>
+          <li>
+            <input
+              type="radio"
+              id="allowed"
+              name="routing"
+              value="allowed"
+              checked
+            />
+            <label for="allowed">Allowed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="not-allowed"
+              name="routing"
+              value="not-allowed"
+            />
+            <label for="not-allowed">Not allowed</label>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
