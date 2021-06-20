@@ -19,13 +19,13 @@
               type="radio"
               id="national"
               name="nai"
-              value="national"
+              value="00000001"
               checked
             />
             <label for="national">National</label>
           </li>
           <li>
-            <input type="radio" id="unknown" name="nai" value="unknown" />
+            <input type="radio" id="unknown" name="nai" value="00000010" />
             <label for="unknown">Unknown</label>
           </li>
           <li>
@@ -33,7 +33,7 @@
               type="radio"
               id="national-significant"
               name="nai"
-              value="national-significant"
+              value="00000011"
             />
             <label for="national-significant">National Significant</label>
           </li>
@@ -42,7 +42,7 @@
               type="radio"
               id="international"
               name="nai"
-              value="international"
+              value="00000100"
             />
             <label for="international">International</label>
           </li>
@@ -54,7 +54,7 @@
               type="radio"
               id="not-verified"
               name="screening"
-              value="not-verified"
+              value="00000000"
               checked
             />
             <label for="not-verified">Not Verified</label>
@@ -64,7 +64,7 @@
               type="radio"
               id="verified-and-passed"
               name="screening"
-              value="verified-and-passed"
+              value="00000001"
             />
             <label for="verified-and-passed">Verified and passed</label>
           </li>
@@ -73,7 +73,7 @@
               type="radio"
               id="verified-and-failed"
               name="screening"
-              value="verified-and-failed"
+              value="00000010"
             />
             <label for="verified-and-failed">Verified and failed</label>
           </li>
@@ -82,7 +82,7 @@
               type="radio"
               id="network provided"
               name="screening"
-              value="network provided"
+              value="00000011"
             />
             <label for="network provided">Network provided</label>
           </li>
@@ -94,7 +94,7 @@
               type="radio"
               id="allowed"
               name="presentation"
-              value="allowed"
+              value="00000000"
               checked
             />
             <label for="allowed">Allowed</label>
@@ -104,7 +104,7 @@
               type="radio"
               id="restricted"
               name="presentation"
-              value="restricted"
+              value="00000100"
             />
             <label for="restricted">Restricted</label>
           </li>
@@ -113,7 +113,7 @@
               type="radio"
               id="not-available"
               name="presentation"
-              value="not-available"
+              value="00001000"
             />
             <label for="not-available">Not available</label>
           </li>
@@ -125,13 +125,18 @@
               type="radio"
               id="isdn"
               name="numbering-plan"
-              value="isdn"
+              value="00010000"
               checked
             />
             <label for="isdn">ISDN</label>
           </li>
           <li>
-            <input type="radio" id="daya" name="numbering-plan" value="daya" />
+            <input
+              type="radio"
+              id="daya"
+              name="numbering-plan"
+              value="00110000"
+            />
             <label for="daya">Daya</label>
           </li>
           <li>
@@ -139,7 +144,7 @@
               type="radio"
               id="telex"
               name="numbering-plan"
-              value="telex"
+              value="01000000"
             />
             <label for="telex">Telex</label>
           </li>
@@ -151,7 +156,7 @@
               type="radio"
               id="allowed"
               name="routing"
-              value="allowed"
+              value="00000000"
               checked
             />
             <label for="allowed">Allowed</label>
@@ -161,12 +166,13 @@
               type="radio"
               id="not-allowed"
               name="routing"
-              value="not-allowed"
+              value="10000000"
             />
             <label for="not-allowed">Not allowed</label>
           </li>
         </ul>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
