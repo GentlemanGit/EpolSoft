@@ -16,33 +16,36 @@
           <li class="title">NAI</li>
           <li>
             <input
+              class="checkbox"
               type="radio"
               id="national"
               name="nai"
-              value="00000001"
+              value="0001"
               checked
             />
             <label for="national">National</label>
           </li>
           <li>
-            <input type="radio" id="unknown" name="nai" value="00000010" />
+            <input class="checkbox" type="radio" id="unknown" name="nai" value="0010" />
             <label for="unknown">Unknown</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="national-significant"
               name="nai"
-              value="00000011"
+              value="0011"
             />
             <label for="national-significant">National Significant</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="international"
               name="nai"
-              value="00000100"
+              value="0100"
             />
             <label for="international">International</label>
           </li>
@@ -51,38 +54,42 @@
           <li class="title">Screening</li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="not-verified"
               name="screening"
-              value="00000000"
+              value="0000"
               checked
             />
             <label for="not-verified">Not Verified</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="verified-and-passed"
               name="screening"
-              value="00000001"
+              value="0001"
             />
             <label for="verified-and-passed">Verified and passed</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="verified-and-failed"
               name="screening"
-              value="00000010"
+              value="0010"
             />
             <label for="verified-and-failed">Verified and failed</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="network provided"
               name="screening"
-              value="00000011"
+              value="0011"
             />
             <label for="network provided">Network provided</label>
           </li>
@@ -91,29 +98,32 @@
           <li class="title">Presentation</li>
           <li>
             <input
+            class="checkbox"
               type="radio"
-              id="allowed"
+              id="allowed-S"
               name="presentation"
-              value="00000000"
+              value="0000"
               checked
             />
-            <label for="allowed">Allowed</label>
+            <label for="allowed-S">Allowed</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="restricted"
               name="presentation"
-              value="00000100"
+              value="0100"
             />
             <label for="restricted">Restricted</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="not-available"
               name="presentation"
-              value="00001000"
+              value="1000"
             />
             <label for="not-available">Not available</label>
           </li>
@@ -122,29 +132,32 @@
           <li class="title">Numbering Plan</li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="isdn"
               name="numbering-plan"
-              value="00010000"
+              value="0001"
               checked
             />
             <label for="isdn">ISDN</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="daya"
               name="numbering-plan"
-              value="00110000"
+              value="0011"
             />
             <label for="daya">Daya</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="telex"
               name="numbering-plan"
-              value="01000000"
+              value="0100"
             />
             <label for="telex">Telex</label>
           </li>
@@ -153,20 +166,22 @@
           <li class="title">Routing</li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="allowed"
               name="routing"
-              value="00000000"
+              value="0000"
               checked
             />
             <label for="allowed">Allowed</label>
           </li>
           <li>
             <input
+            class="checkbox"
               type="radio"
               id="not-allowed"
               name="routing"
-              value="10000000"
+              value="1000"
             />
             <label for="not-allowed">Not allowed</label>
           </li>
